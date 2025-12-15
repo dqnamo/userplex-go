@@ -14,7 +14,7 @@ import (
 	"encoding"
 	"encoding/base64"
 	"fmt"
-	"github.com/stainless-sdks/userplex-go/internal/encoding/json/shims"
+	"github.com/dqnamo/userplex-go/internal/encoding/json/shims"
 	"reflect"
 	"strconv"
 	"strings"

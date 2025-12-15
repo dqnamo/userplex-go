@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/userplex-go"
-	"github.com/stainless-sdks/userplex-go/internal"
-	"github.com/stainless-sdks/userplex-go/option"
+	"github.com/dqnamo/userplex-go"
+	"github.com/dqnamo/userplex-go/internal"
+	"github.com/dqnamo/userplex-go/option"
 )
 
 type closureTransport struct {

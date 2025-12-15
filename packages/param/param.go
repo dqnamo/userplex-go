@@ -2,7 +2,7 @@ package param
 
 import (
 	"encoding/json"
-	"github.com/stainless-sdks/userplex-go/internal/encoding/json/sentinel"
+	"github.com/dqnamo/userplex-go/internal/encoding/json/sentinel"
 	"reflect"
 )
 

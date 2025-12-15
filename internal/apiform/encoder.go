@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stainless-sdks/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/packages/param"
 )
 
 var encoders sync.Map // map[encoderEntry]encoderFunc

@@ -2,7 +2,7 @@ package param_test
 
 import (
 	"encoding/json"
-	"github.com/stainless-sdks/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/packages/param"
 	"testing"
 )
 

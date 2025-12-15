@@ -3,7 +3,7 @@ package param
 import (
 	"encoding/json"
 	"fmt"
-	shimjson "github.com/stainless-sdks/userplex-go/internal/encoding/json"
+	shimjson "github.com/dqnamo/userplex-go/internal/encoding/json"
 	"time"
 )
 

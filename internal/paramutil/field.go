@@ -1,8 +1,8 @@
 package paramutil
 
 import (
-	"github.com/stainless-sdks/userplex-go/packages/param"
-	"github.com/stainless-sdks/userplex-go/packages/respjson"
+	"github.com/dqnamo/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/packages/respjson"
 )
 
 func AddrIfPresent[T comparable](v param.Opt[T]) *T {

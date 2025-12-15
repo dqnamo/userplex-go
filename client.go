@@ -8,8 +8,8 @@ import (
 	"os"
 	"slices"
 
-	"github.com/stainless-sdks/userplex-go/internal/requestconfig"
-	"github.com/stainless-sdks/userplex-go/option"
+	"github.com/dqnamo/userplex-go/internal/requestconfig"
+	"github.com/dqnamo/userplex-go/option"
 )
 
 // Client creates a struct with services and top level methods that help with

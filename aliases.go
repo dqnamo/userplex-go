@@ -3,8 +3,8 @@
 package userplex
 
 import (
-	"github.com/stainless-sdks/userplex-go/internal/apierror"
-	"github.com/stainless-sdks/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/internal/apierror"
+	"github.com/dqnamo/userplex-go/packages/param"
 )
 
 // aliased to make [param.APIUnion] private when embedding

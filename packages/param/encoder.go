@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	shimjson "github.com/stainless-sdks/userplex-go/internal/encoding/json"
+	shimjson "github.com/dqnamo/userplex-go/internal/encoding/json"
 
 	"github.com/tidwall/sjson"
 )

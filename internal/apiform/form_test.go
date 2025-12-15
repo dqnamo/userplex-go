@@ -2,7 +2,7 @@ package apiform
 
 import (
 	"bytes"
-	"github.com/stainless-sdks/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/packages/param"
 	"io"
 	"mime/multipart"
 	"strings"
