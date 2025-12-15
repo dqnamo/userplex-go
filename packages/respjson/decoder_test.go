@@ -3,8 +3,8 @@ package respjson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stainless-sdks/userplex-go/internal/apijson"
-	rj "github.com/stainless-sdks/userplex-go/packages/respjson"
+	"github.com/dqnamo/userplex-go/internal/apijson"
+	rj "github.com/dqnamo/userplex-go/packages/respjson"
 	"reflect"
 	"testing"
 )

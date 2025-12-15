@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/userplex-go"
-	"github.com/stainless-sdks/userplex-go/internal/testutil"
-	"github.com/stainless-sdks/userplex-go/option"
+	"github.com/dqnamo/userplex-go"
+	"github.com/dqnamo/userplex-go/internal/testutil"
+	"github.com/dqnamo/userplex-go/option"
 )
 
 func TestEventNewWithOptionalParams(t *testing.T) {

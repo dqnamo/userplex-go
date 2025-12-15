@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"slices"
 
-	"github.com/stainless-sdks/userplex-go/internal/apijson"
-	"github.com/stainless-sdks/userplex-go/internal/requestconfig"
-	"github.com/stainless-sdks/userplex-go/option"
-	"github.com/stainless-sdks/userplex-go/packages/param"
-	"github.com/stainless-sdks/userplex-go/packages/respjson"
+	"github.com/dqnamo/userplex-go/internal/apijson"
+	"github.com/dqnamo/userplex-go/internal/requestconfig"
+	"github.com/dqnamo/userplex-go/option"
+	"github.com/dqnamo/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/packages/respjson"
 )
 
 // UserService contains methods and other services that help with interacting with

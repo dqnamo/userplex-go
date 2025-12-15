@@ -2,7 +2,7 @@ package paramutil
 
 import (
 	"fmt"
-	"github.com/stainless-sdks/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/packages/param"
 	"reflect"
 )
 

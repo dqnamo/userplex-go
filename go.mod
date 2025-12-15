@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/userplex-go
+module github.com/dqnamo/userplex-go
 
 go 1.22
 

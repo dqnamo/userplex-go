@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stainless-sdks/userplex-go/internal"
-	"github.com/stainless-sdks/userplex-go/internal/apierror"
-	"github.com/stainless-sdks/userplex-go/internal/apiform"
-	"github.com/stainless-sdks/userplex-go/internal/apiquery"
+	"github.com/dqnamo/userplex-go/internal"
+	"github.com/dqnamo/userplex-go/internal/apierror"
+	"github.com/dqnamo/userplex-go/internal/apiform"
+	"github.com/dqnamo/userplex-go/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {

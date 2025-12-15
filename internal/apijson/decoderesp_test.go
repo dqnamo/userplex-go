@@ -2,8 +2,8 @@ package apijson_test
 
 import (
 	"encoding/json"
-	"github.com/stainless-sdks/userplex-go/internal/apijson"
-	"github.com/stainless-sdks/userplex-go/packages/respjson"
+	"github.com/dqnamo/userplex-go/internal/apijson"
+	"github.com/dqnamo/userplex-go/packages/respjson"
 	"testing"
 )
 

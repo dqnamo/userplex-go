@@ -1,7 +1,7 @@
 package apijson
 
 import (
-	"github.com/stainless-sdks/userplex-go/packages/respjson"
+	"github.com/dqnamo/userplex-go/packages/respjson"
 	"reflect"
 )
 

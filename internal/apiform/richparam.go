@@ -1,7 +1,7 @@
 package apiform
 
 import (
-	"github.com/stainless-sdks/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/packages/param"
 	"mime/multipart"
 	"reflect"
 )
