@@ -24,6 +24,7 @@ func TestUsage(t *testing.T) {
 		option.WithBaseURL(baseURL),
 		option.WithAPIKey("My API Key"),
 	)
+	t.Skip("Prism tests are disabled")
 	response, err := client.Users.Identify(context.TODO(), userplex.UserIdentifyParams{
 		UserID: "user_id",
 		Email:  userplex.String("REPLACE_ME"),
