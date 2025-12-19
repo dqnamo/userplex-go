@@ -1,8 +1,8 @@
 package sentinel_test
 
 import (
-	"github.com/stainless-sdks/userplex-go/internal/encoding/json/sentinel"
-	"github.com/stainless-sdks/userplex-go/packages/param"
+	"github.com/dqnamo/userplex-go/internal/encoding/json/sentinel"
+	"github.com/dqnamo/userplex-go/packages/param"
 	"reflect"
 	"slices"
 	"testing"

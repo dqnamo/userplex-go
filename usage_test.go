@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/userplex-go"
-	"github.com/stainless-sdks/userplex-go/internal/testutil"
-	"github.com/stainless-sdks/userplex-go/option"
+	"github.com/dqnamo/userplex-go"
+	"github.com/dqnamo/userplex-go/internal/testutil"
+	"github.com/dqnamo/userplex-go/option"
 )
 
 func TestUsage(t *testing.T) {
@@ -24,6 +24,7 @@ func TestUsage(t *testing.T) {
 		option.WithBaseURL(baseURL),
 		option.WithAPIKey("My API Key"),
 	)
+	t.Skip("Prism tests are disabled")
 	response, err := client.Users.Identify(context.TODO(), userplex.UserIdentifyParams{
 		UserID: "user_id",
 		Email:  userplex.String("REPLACE_ME"),

@@ -1,7 +1,7 @@
 package sentinel
 
 import (
-	"github.com/stainless-sdks/userplex-go/internal/encoding/json/shims"
+	"github.com/dqnamo/userplex-go/internal/encoding/json/shims"
 	"reflect"
 	"sync"
 )

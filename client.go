@@ -8,8 +8,8 @@ import (
 	"os"
 	"slices"
 
-	"github.com/stainless-sdks/userplex-go/internal/requestconfig"
-	"github.com/stainless-sdks/userplex-go/option"
+	"github.com/dqnamo/userplex-go/internal/requestconfig"
+	"github.com/dqnamo/userplex-go/option"
 )
 
 // Client creates a struct with services and top level methods that help with
@@ -18,7 +18,7 @@ import (
 type Client struct {
 	Options []option.RequestOption
 	Users   UserService
-	Events  EventService
+	Logs    LogService
 }
 
 // DefaultClientOptions read from the environment (USERPLEX_API_KEY,
@@ -44,7 +44,7 @@ func NewClient(opts ...option.RequestOption) (r Client) {
 	r = Client{Options: opts}
 
 	r.Users = NewUserService(opts...)
-	r.Events = NewEventService(opts...)
+	r.Logs = NewLogService(opts...)
 
 	return
 }
