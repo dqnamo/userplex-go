@@ -18,7 +18,7 @@ import (
 type Client struct {
 	Options []option.RequestOption
 	Users   UserService
-	Events  EventService
+	Logs    LogService
 }
 
 // DefaultClientOptions read from the environment (USERPLEX_API_KEY,
@@ -44,7 +44,7 @@ func NewClient(opts ...option.RequestOption) (r Client) {
 	r = Client{Options: opts}
 
 	r.Users = NewUserService(opts...)
-	r.Events = NewEventService(opts...)
+	r.Logs = NewLogService(opts...)
 
 	return
 }
